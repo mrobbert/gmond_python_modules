@@ -1,0 +1,17 @@
+infiniband
+========
+
+Python module for ganglia 3.1.
+
+This module reads inifiniband network statistics using perfquery and
+creates a group of ib_* metrics. 
+
+Uses perfquery which requires read access to /dev/umad0.
+
+## Requires
+
+perfquery (Pkg: infiniband-diags)
+
+## AUTHOR
+
+Author: Michael Robbert &lt;mrobbert [at] gmail [dot] com&gt;

@@ -1,0 +1,16 @@
+modules {
+  module {
+    name = "infiniband"
+    language = "python"
+
+  }
+}
+
+collection_group {
+  collect_every = 15
+  time_threshold = 60
+  metric {
+    name_match = "ib_(.+)"
+  }
+}
+
